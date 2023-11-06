@@ -186,7 +186,8 @@ VALUES(5003, 'Lauson Hen', 'San Jose', 0.12);
 
 ### QUERY:
 ```sql
-SELECT S.name AS Salesman, C.cust_name, C.city FROM Salesman1 S ,Customer1 C where S.city = C.city;
+SELECT S.name AS Salesman, C.cust_name, C.city FROM Salesman1 S ,
+Customer1 C where S.city = C.city;
 ```
 
 ### OUTPUT:
