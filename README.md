@@ -1,6 +1,5 @@
-# EX 3 SubQueries, Views and Joins 
-
-
+# EX 3: SubQueries, Views and Joins 
+## Date: 18/08/23
 ## Create employee Table
 ```sql
 CREATE TABLE EMP (EMPNO NUMBER(4) PRIMARY KEY,
@@ -141,18 +140,27 @@ SELECT * FROM emp;
 
 ## Create a Customer1 Table
 ```sql
-CREATE TABLE Customer1 (customer_id INT,cust_name VARCHAR(20),city VARCHAR(20),grade INT,salesman_id INT);
+CREATE TABLE Customer1 (customer_id INT,cust_name VARCHAR(20),
+city VARCHAR(20),grade INT,salesman_id INT);
 ```
 ## Inserting Values to the Table
 ```sql
-INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3002, 'Nick Rimando', 'New York', 100, 5001);
-INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3007, 'Brad Davis', 'New York', 200, 5001);
-INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3005, 'Graham Zusi', 'California', 200, 5002);
-INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3008, 'Julian Green', 'London', 300, 5002);
-INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3004, 'Fabian Johnson', 'Paris', 300, 5006);
-INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3009, 'Geoff Cameron', 'Berlin', 100, 5003);
-INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3003, 'Jozy Altidor', 'Moscow', 200, 5007);
-INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3001, 'Brad Guzan', 'London', NULL, 5005);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id)
+VALUES(3002, 'Nick Rimando', 'New York', 100, 5001);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id)
+VALUES(3007, 'Brad Davis', 'New York', 200, 5001);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id)
+VALUES(3005, 'Graham Zusi', 'California', 200, 5002);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id)
+VALUES(3008, 'Julian Green', 'London', 300, 5002);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id)
+VALUES(3004, 'Fabian Johnson', 'Paris', 300, 5006);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id)
+VALUES(3009, 'Geoff Cameron', 'Berlin', 100, 5003);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id)
+VALUES(3003, 'Jozy Altidor', 'Moscow', 200, 5007);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id)
+VALUES(3001, 'Brad Guzan', 'London', NULL, 5005);
 ```
 ## Create a Salesperson1 table
 ```sql
