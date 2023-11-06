@@ -164,7 +164,8 @@ VALUES(3001, 'Brad Guzan', 'London', NULL, 5005);
 ```
 ## Create a Salesperson1 table
 ```sql
-CREATE TABLE Salesman1 (salesman_id INT,name VARCHAR(20),city VARCHAR(20),commission DECIMAL(4,2));
+CREATE TABLE Salesman1 (salesman_id INT,name VARCHAR(20),
+city VARCHAR(20),commission DECIMAL(4,2));
 ```
 ## Inserting Values to the Table
 ```sql
