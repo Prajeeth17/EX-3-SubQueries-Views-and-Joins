@@ -190,7 +190,7 @@ Customer1 C where S.city = C.city;
 
 ### QUERY:
 ```sql
-SELECT c.cust_name AS CustomerName, c.city AS CustomerCity, s.name AS Salesman, s.commission FROM
+SELECT c.cust_name AS CustomerName, c.city AS CustomerCity,s.name AS Salesman,s.commission FROM
 Salesman1 s JOIN Customer1 c ON s.salesman_id = c.salesman_id WHERE s.commission > 0.13;
 ```
 ### OUTPUT:
